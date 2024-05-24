@@ -1,0 +1,134 @@
+html {
+  scroll-padding-top: 100px;
+}
+a {
+  text-decoration: none;
+}
+
+.blackCover {
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+
+}
+.blackCover::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.6;
+}
+
+/* NAVBAR */
+.title-image {
+  height: 80px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;  
+}
+
+.object-fit-cover{
+  object-fit: cover;
+}
+
+.pattern-repeat{
+  background-color: #DFDBE5;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%239C92AC' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.height-s5 {
+  height: 360px;
+}
+
+/* carousel */
+#carousel-jumbotron {
+  max-height: 760px;
+  width: 100%;
+}
+
+/* swiper */
+.swiper {
+      width: 100%;
+      height: 100%;
+}
+.swiper-wrapper {
+  position: relative;
+}
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.swiper-slide img {
+      display: flex;
+      width: 100%;
+      object-fit: cover;
+      user-select: none;      
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  /* content: ''; */
+  top: 50%;
+  background: #fff;
+  color: #000;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+} 
+
+.swiper-button-prev {
+  left: 23px;
+}
+.swiper-button-next {
+  right: 23px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -2.5rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+  outline: none;
+}
+
+/* social */
+.social-icon {
+  color: #fff;
+  font-size: 2.4rem;
+  padding: 12px 6px;
+}
+
+@media(max-width:992px) {
+  .container {
+      max-width: 960px;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+      max-width: 720px;
+  }
+
+  .col {
+      width: 100%;
+  }
+}
