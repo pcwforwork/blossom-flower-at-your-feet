@@ -132,4 +132,10 @@ a {
   .col {
       width: 100%;
   }
+  .title-image {
+    height: 56px;
+  }
+  #carousel-jumbotron {
+    margin-top: 56px;
+  }
 }
