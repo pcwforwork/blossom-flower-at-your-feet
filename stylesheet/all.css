@@ -1,5 +1,5 @@
 html {
-  scroll-padding-top: 100px;
+  scroll-padding-top: 80px;
 }
 a {
   text-decoration: none;
@@ -10,7 +10,6 @@ a {
   background-position: center center;
   background-size: cover;
   position: relative;
-
 }
 .blackCover::after{
   position: absolute;
@@ -38,10 +37,10 @@ a {
   object-fit: cover;
 }
 
-.pattern-repeat{
+/* .pattern-repeat{
   background-color: #DFDBE5;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%239C92AC' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
-}
+} */
 
 .height-s5 {
   height: 360px;
@@ -49,7 +48,7 @@ a {
 
 /* carousel  */
 #carousel-jumbotron {
-  max-height: 760px;
+  max-height: 660px;
   width: 100%;
   margin-top: 80px;
 }
@@ -122,6 +121,9 @@ a {
   .container {
       max-width: 960px;
   }
+  #contact {
+    height: 480px;
+  }
 }
 
 @media(max-width:768px) {
@@ -133,9 +135,12 @@ a {
       width: 100%;
   }
   .title-image {
-    height: 56px;
+    height: 46px;
   }
   #carousel-jumbotron {
-    margin-top: 56px;
+    margin-top: 46px;
+  }
+  #contact {
+    height: 300px;
   }
 }
