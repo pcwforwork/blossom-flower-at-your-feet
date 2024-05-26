@@ -130,7 +130,6 @@ a {
   .container {
       max-width: 720px;
   }
-
   .col {
       width: 100%;
   }
@@ -143,4 +142,23 @@ a {
   #contact {
     height: 300px;
   }
+}
+@media screen and (max-width: 350px) {
+  .container {
+      max-width: 350px;
+  }
+  .col {
+      width: 100%;
+  }
+  .title-image {
+    height: 46px;
+    width: 100%;
+  }
+  #carousel-jumbotron {
+    margin-top: 46px;
+  }
+  #contact {
+    height: 300px;
+  }
+  
 }
