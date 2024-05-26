@@ -23,6 +23,7 @@ a {
 }
 
 /* NAVBAR */
+
 .title-image {
   height: 80px;
 }
@@ -152,8 +153,6 @@ a {
   }
   .title-image {
     height: 46px;
-    width: 100%;
-    object-fit: cover;
   }
   #carousel-jumbotron {
     margin-top: 46px;
